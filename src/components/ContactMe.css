@@ -1,0 +1,53 @@
+.inp{
+    height:50px;
+    max-width:80%;
+    border:1px transparent;
+    border-bottom:1px solid white;
+    background-color: transparent;
+
+}
+.inp:hover{
+    opacity:0.6;
+}
+.contact-heading{
+    font-family: 'Pacifico',cursive;
+    color:bisque;
+    /* background-image: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent; */
+    font-size:24px;
+    /* color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  */
+}
+
+form{
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin-left:17%;
+    display: flex;
+    flex-direction: column;
+    row-gap:50px;
+
+}
+.form .subm{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width:80%;
+    height:50px;
+    border-radius:10px;
+    border:none;
+    font-size:20px;
+   background-image:linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.form .subm:hover{
+    background-image:none;
+    background-color: transparent;
+}
+.contact-pg{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-image:url("../assets/heya.jpg");
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,61 @@
+.hero-baning{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap:10px;
+    background-image:url("https://wallpaperaccess.com/full/802281.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.p{
+    border:1px solid transparent;
+    padding:4px;
+    border-radius:5px;
+    row-gap: 5px;
+    margin:2px;
+    color:white;
+    display: flex;
+    flex-direction:column;
+    max-width: 300px;
+    text-align:center;
+    animation-name:aam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.p img{
+    width:100%;
+    height:250px;
+    border-radius:15px;
+}
+.p h4{
+    font-size:25px;
+    font-family:sans-serif;
+}
+.p p{
+    font-size:17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p a{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius:5px;
+    width:max-content;
+    text-decoration: none;
+    font-size:30px;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+    color:white;
+}
+.p a:hover{
+    opacity: 0.5;
+}
+@keyframes aam{
+    0%{border-top:1px solid white;}
+    25%{border-right:1px solid white;}
+    50%{border-bottom:1px solid white;}
+    75%{border-left:1px solid white;}
+}

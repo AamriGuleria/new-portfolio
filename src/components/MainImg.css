@@ -1,0 +1,132 @@
+.Hero{
+    width:100%;
+    height:100vh;
+    position:relative;
+} 
+::-webkit-scrollbar {
+    width: 8px;
+    background-image:black;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-image:black;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 50px black;
+  }
+  .main-main{
+    display: flex;
+    flex-direction:row;
+    /* flex-wrap:wrap; */
+    height:100vh;
+  }
+  .second{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    /* background-size: contain;
+    display: block;
+    visibility: visible; */
+  }
+  .second img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    /* border-radius: 20px; */
+    /* transform:translate(40%,40%); */
+    background-size: contain;
+    background-position:bottom;
+    object-fit: cover;
+  }
+  /* .Hero::after{
+    content:"";
+    background-color: black;
+    opacity:0.6;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    visibility: visible;
+  } */
+.back-img{
+    width:100%;
+    height:100vh;
+    background-size: contain;
+    background-position:bottom;
+    object-fit: cover;
+}
+.my-content{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    row-gap:10px;
+}
+.my-content{
+    word-wrap: break-word;
+}
+.my-content .hi{
+    word-wrap: break-word;
+    font-family:cursive;
+    font-size: 30px;
+    color:white;
+    border-radius:5px;
+}
+.my-content .creative{
+    font-family:cursive;
+    word-wrap: break-word;
+    color:black;
+    border-radius:5px;
+    animation-name: hello;
+    animation-delay: 0.1s;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.end{
+    font-size:30px;
+    word-wrap: break-word;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+}
+.Hero{
+    /* padding-top:100px; */
+    width:100%;
+    height:100%;
+}
+.hehe{
+    position: absolute;
+    transform:translate(-50%,-50%);
+    top:65%;
+    left:50%;
+    text-align:center;
+}
+.Main-img::after{
+    content:"";
+    background-color: black;
+    opacity:0.7;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    visibility: visible;
+}
+
+@keyframes hello{
+    0%{color:rgb(249, 27, 64);}
+    60%{color:#70b806;}
+    80%{color:rgb(7, 7, 232);}
+    100%{color:yellow;}
+    }
+    @keyframes yess{
+        0%{font-size:1.75rem;}
+    80%{content:"Friendly";font-size:2.75rem;}
+    100%{color:transparent;}
+        }
