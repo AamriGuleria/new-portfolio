@@ -94,6 +94,12 @@
     word-wrap: break-word;
     background-image: linear-gradient(to right, #00b4db, #0083b0);
 }
+.end span::before {
+  content: "";
+  animation: animate infinite 3.5s ease;
+  padding-left: 10px;
+}
+
 .Hero{
     /* padding-top:100px; */
     width:100%;
@@ -121,12 +127,25 @@
 
 @keyframes hello{
     0%{color:rgb(249, 27, 64);}
-    60%{color:#70b806;}
-    80%{color:rgb(7, 7, 232);}
+    40%{color:#70b806;}
+    70%{color:rgb(7, 7, 232);}
     100%{color:yellow;}
     }
-    @keyframes yess{
-        0%{font-size:1.75rem;}
-    80%{content:"Friendly";font-size:2.75rem;}
-    100%{color:transparent;}
-        }
+        @keyframes animate {
+  
+          0% {
+              content: "Full Stack Developer";
+
+          }
+    
+          50% {
+              content: "Learner";
+          }
+    
+          75% {
+              content: "Programmer";
+          }
+          100%{
+            content:"Tech Enthusiast"
+          }
+      }

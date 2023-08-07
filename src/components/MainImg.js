@@ -14,7 +14,7 @@ const MainImg = () => {
           <div className="my-content">
             <p className='hi'>Hii, I am a</p>
             <p className='creative'>CREATIVE</p>
-            <p className='end'><span className="one">Full</span> <span className="two">Stack</span> <span className="three">Developer</span></p>
+            <p className='end'><span></span></p>
           </div>
         </div>
         {/* <div className="second">
