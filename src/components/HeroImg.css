@@ -230,7 +230,7 @@
     width:60%;
     margin-top:10px;
     margin-bottom:10px;
-    background-color: rgb(238, 202, 152);
+    background-color: rgb(206, 157, 157);
     color:black;
     border-radius:20px;
     display:flex;
@@ -239,11 +239,13 @@
     padding-left: 20px;
     padding-right:20px;
     flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .e:hover{
   transition: 0.3s;
   width:58%;
-    background-color: rgb(247, 231, 205);
+  background-color: rgb(233, 206, 206);
     color:black;
 }
 .e span{
@@ -252,6 +254,10 @@
 }
 .ins{
     font-size: 25px;
+}
+.e p{
+  word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .s-name{
     font-size: 25px;
@@ -263,6 +269,18 @@
     .c2{
         font-size:10px;
     }
+}
+@media screen and (max-width:360px){
+  .e{
+    background-color: rgb(206, 157, 157);
+    padding:20px;
+  }
+  .e:hover{
+    transition: 0.3s;
+  width:58%;
+    background-color:rgb(221, 195, 195);
+    color:black;
+  }
 }
 @keyframes aamu{
     0%{border-top:2px solid white;}

@@ -28,24 +28,24 @@ const HeroImg = () => {
                 <div><img src={edu} height="60px" width="60px"></img></div>
                 <div>
                 <p className='year'><span>2009-2019</span></p>
-                <p className='ins'>Secondary Education</p>
-                <p className='s-name'>Omkarananda Saraswati Nilayam,Rishikesh</p>
+                <p className='ins'>Secondary Education <br/>Omkarananda Saraswati Nilayam, Rishikesh</p>
+                {/* <p className='s-name'>Omkarananda Saraswati Nilayam,Rishikesh</p> */}
                 </div>
               </div>
               <div className="e">
               <div><img src={edu} height="60px" width="60px"></img></div>
               <div>
                 <p className='year'><span>2019-2021</span></p>
-                <p className='ins'>Higher Secondary Education</p>
-                <p className='s-name'>Omkarananda Saraswati Nilayam,Rishikesh</p>
+                <p className='ins'>Higher Secondary Education <br/>Omkarananda Saraswati Nilayam, Rishikesh</p>
+                {/* <p className='s-name'>Omkarananda Saraswati Nilayam,Rishikesh</p> */}
                 </div>
               </div>
               <div className="e">
               <div><img src={edu} height="60px" width="60px"></img></div>
               <div>
                 <p className='year'><span>2023 present</span></p>
-                <p className='ins'>Btech Computer Science</p>
-                <p className='s-name'>DIT University Dehradun</p>
+                <p className='ins'>Btech Computer Science <br/> DIT University, Dehradun</p>
+                {/* <p className='s-name'>DIT University Dehradun</p> */}
               </div>
               </div>
               </center>
