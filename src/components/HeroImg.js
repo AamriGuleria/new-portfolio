@@ -83,9 +83,6 @@ const HeroImg = () => {
         <div className='skill node'>
         <img></img>
         </div>
-        {/* <div className='skill ex'>
-        <img></img>
-        </div> */}
         <div className='skill ms'>
         <img></img>
         </div>

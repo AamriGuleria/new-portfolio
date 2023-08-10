@@ -28,7 +28,10 @@
   }
   .resume img{
     border-radius:50%;
-    box-shadow: 2px 2px 2px 2px white;
+  }
+  .resume img:hover{
+    border:2px solid white;
+    transition: 0.2s;
   }
   .skill{
     text-align: center;
@@ -42,6 +45,9 @@
   }
   .skill:hover{
     opacity: 0.6;
+    width:140px;
+    height:140px;
+    transition: 0.3s;
   }
   .certification{
     display: flex;
@@ -64,12 +70,14 @@
     padding-bottom:10px;
     color:white;
     font-family:'Times New Roman', Times, serif;
-    border:3px solid transparent;
+    border:1px solid transparent;
   }
   .certification a:hover{
-    border:3px solid white;
+    transition: 0.2s;
+    border:1px solid white;
     background-color: #e9d1d0;
     color:black;
+    box-shadow:1px 4px 5px rgba(255, 255, 255, 0.489);
   }
   .resume{
     display:flex;
@@ -80,16 +88,20 @@
     background-color: black;
   }
   .resume a{
+    font-family:sans-serif;
     text-decoration: none;
     font-size:25px;
     color:black;
     border-radius: 5px;
-    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color:white;
     height:35px;
     border:2px solid transparent;
   }
   .resume a:hover{
-    border:2px solid white;
+    transition: 1s;
+  animation-name: aamu;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
   }
   .certification h4{
     font-size: 30px;
@@ -218,7 +230,7 @@
     width:60%;
     margin-top:10px;
     margin-bottom:10px;
-    background-color: rgb(241, 227, 208);
+    background-color: rgb(238, 202, 152);
     color:black;
     border-radius:20px;
     display:flex;
@@ -229,6 +241,8 @@
     flex-wrap: wrap;
 }
 .e:hover{
+  transition: 0.3s;
+  width:58%;
     background-color: rgb(247, 231, 205);
     color:black;
 }
@@ -250,9 +264,9 @@
         font-size:10px;
     }
 }
-/* @keyframes aamri{
-    0%{color:white;}
-60%{color:#7ab423;}
-80%{color:rgb(62, 62, 241);}
-100%{color:yellow;}
-    } */
+@keyframes aamu{
+    0%{border-top:2px solid white;}
+35%{border-right:2px solid white;}
+70%{border-bottom:2px solid white;}
+100%{border-left:2px solid white;}
+    }

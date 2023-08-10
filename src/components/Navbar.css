@@ -50,8 +50,8 @@
     font-family: 'Pacifico',cursive;
     flex-direction: column;
     font-size: 30px;
-    transform: translateY(18%);
-    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    font-family: 'Pacifico',cursive;
+    background-image: linear-gradient(25deg,#e10958,#ee7581 50%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -63,7 +63,7 @@
     flex-direction: column;
     font-size: 30px;
     transform: translateY(18%);
-    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;

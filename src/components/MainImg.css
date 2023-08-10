@@ -96,6 +96,7 @@
 }
 .end span::before {
   content: "";
+  transition: 0.3s;
   animation: animate infinite 3.5s ease;
   padding-left: 10px;
 }

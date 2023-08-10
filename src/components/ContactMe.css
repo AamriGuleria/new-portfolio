@@ -38,9 +38,12 @@ form{
     border-radius:10px;
     border:none;
     font-size:20px;
+    margin-left:20%;
+    margin-right:40%;
    background-image:linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 .form .subm:hover{
+    color:white;
     background-image:none;
     background-color: transparent;
 }
