@@ -43,6 +43,7 @@ form{
    background-image:linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 .form .subm:hover{
+    transition: .4s;
     color:white;
     background-image:none;
     background-color: transparent;

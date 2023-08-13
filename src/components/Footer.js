@@ -13,7 +13,7 @@ const Footer = () => {
         <p className="home"><img src="https://img.icons8.com/?size=512&id=44013&format=png" width="60px" height="60px" className="home-img"/><span className="loc">Rishikesh,Uttarakhand</span></p>
       </div>
       <div className="right">
-        <p className='name'>Aamri</p>
+        <p className='name'>Aamri Guleria</p>
         <p className='details'>I'm Pursuing Btech in Computer Science From Dit University,Dehradun</p>
         <div className="social-m">
             <Link to="https://www.linkedin.com/in/aamri-guleria-712968223/" className="linkedin"><img src="https://img.icons8.com/?size=512&id=44019&format=png" width="60px" height="60px"/></Link>

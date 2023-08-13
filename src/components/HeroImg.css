@@ -97,6 +97,21 @@
     height:35px;
     border:2px solid transparent;
   }
+  .resume button{
+    border:none;
+    background-color: transparent;
+    font-size: 25px;
+    color:crimson;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .resume button:hover{
+    opacity:0.5;
+    border:none;
+    padding:0;
+    color:white;
+    transition: 2s;
+  }
   .resume a:hover{
     transition: 1s;
   animation-name: aamu;
@@ -230,7 +245,7 @@
     width:60%;
     margin-top:10px;
     margin-bottom:10px;
-    background-color: rgb(206, 157, 157);
+    background-color:burlywood;
     color:black;
     border-radius:20px;
     display:flex;
@@ -245,7 +260,7 @@
 .e:hover{
   transition: 0.3s;
   width:58%;
-  background-color: rgb(233, 206, 206);
+  background-color: rgb(233, 204, 166);
     color:black;
 }
 .e span{

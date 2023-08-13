@@ -3,6 +3,23 @@ import "./HeroImg.css"
 import im from "../assets/p3.jpg";
 import edu from "../assets/edu.png";
 const HeroImg = () => {
+  const fileUrl='http://localhost:3000/the_new_resume.pdf';
+  const fileUrl1='http://localhost:3000/python_basic certificate.pdf';
+  const fileUrl2='http://localhost:3000/sql_basic certificate.pdf';
+  const fileUrl3='http://localhost:3000/css certificate.pdf';
+  const fileUrl4='http://localhost:3000/java_basic certificate.pdf';
+  const fileUrl5='http://localhost:3000/i1.pdf';
+  const fileUrl6='http://localhost:3000/i2.pdf';
+  const fileUrl7='http://localhost:3000/i3.pdf';
+  const download=(url)=>{
+    const fileName=url.split('/').pop()
+    const tag=document.createElement("a");
+    tag.href=url
+    tag.setAttribute('download',fileName)
+    document.body.appendChild(tag);
+    tag.click()
+    tag.remove();
+  }
   return (
     <div className="hero-img">
       <div className="me">
@@ -92,17 +109,17 @@ const HeroImg = () => {
       </div>
       <div className="certification">
         <h4>Certifications 📜</h4>
-        <p>Download By clicking</p>
-        <a href="src\assets\python_basic certificate.pdf" download>Hackerrank Python Certificate</a>
-        <a href="src\assets\sql_basic certificate.pdf" download>Hackerrank SQL Certificate</a>
-        <a href="src\assets\css certificate.pdf" download>Hackerrank CSS Certificate</a>
-        <a href="src\assets\java_basic certificate.pdf" download>Hackerrank Java Certificate</a>
-        <a href="src\assets\i1.pdf" download>Programming Fundamentals using Python - Part 2 by infosys springboard</a>
-        <a href="src\assets\i2.pdf" download>Programming Fundamentals using Python - Part 1 by infosys springboard</a>
-        <a href="src\assets\i3.pdf" download>Basics of Python by infosys springboard</a>
+        <p>Click To Download</p>
+        <a  onClick={()=>{download(fileUrl1)}}>Hackerrank Python Certificate</a>
+        <a onClick={()=>{download(fileUrl2)}}>Hackerrank SQL Certificate</a>
+        <a onClick={()=>{download(fileUrl3)}}>Hackerrank CSS Certificate</a>
+        <a onClick={()=>{download(fileUrl4)}}>Hackerrank Java Certificate</a>
+        <a onClick={()=>{download(fileUrl5)}}>Programming Fundamentals using Python - Part 2 by infosys springboard</a>
+        <a onClick={()=>{download(fileUrl6)}}>Programming Fundamentals using Python - Part 1 by infosys springboard</a>
+        <a onClick={()=>{download(fileUrl7)}}>Basics of Python by infosys springboard</a>
       </div>
       <div className="resume">
-      <a href="src\assets\the_new_resume.pdf" download>Click Here To Download Resume 📥</a>
+      <button onClick={()=>{download(fileUrl)}}>Resume</button>
       <img src="https://media.istockphoto.com/id/1310732908/vector/job-interview-process-hiring-new-employees-interview-and-recruitment-concept.jpg?s=612x612&w=0&k=20&c=TcDB6rBPFbBdtx2veOjbB8ujBP_H1h3_1PreyOK3hyA=" width="150px" height="150px"></img>
       </div>
       {/* <div className="img-part">
